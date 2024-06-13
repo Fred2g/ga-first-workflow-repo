@@ -2,7 +2,7 @@ name: first workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: arc-runner-set-fred
+    runs-on: arc-runner-set-fredrick
     steps:
       - name: print greeting
         run: echo " Hello-World from Fred"
